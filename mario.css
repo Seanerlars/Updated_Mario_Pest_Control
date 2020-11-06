@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(156, 20, 20);
+}
+
+
+h1 {
+    margin-left: 700px;
+    font-size: 50px;
+    
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#goomba1{
+    height: 200px;
+    width: 200px;
+    border: solid black 10px;
+}
+
+#bomb-omb1{
+    height: 200px;
+    width: 200px;
+    border: solid black 10px;
+}
+
+#cheep-cheep1 {
+    height: 200px;
+    width: 200px;
+    border: solid black 10px;
+}
+
+@media screen and (max-width:1125px) and (min-width:10px){
+
+    body {
+        background-color: rgb(156, 20, 20);
+    }
+    
+    
+    h1 {
+        margin-left: 300px;
+        font-size: 20px;
+        
+    }
+    
+    .display {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    
+    #goomba1{
+        height: 100px;
+        width: 100px;
+        border: solid black 10px;
+    }
+    
+    #bomb-omb1{
+        height: 100px;
+        width: 100px;
+        border: solid black 10px;
+    }
+    
+    #cheep-cheep1 {
+        height: 100px;
+        width: 100px;
+        border: solid black 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

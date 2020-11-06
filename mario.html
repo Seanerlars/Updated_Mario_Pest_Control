@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 
 <head>
-   
+   <link rel="stylesheet" href="mario.css">
 </head>
 <body>
-    <h1 id="header">Mario Pest Control</h1>
+    <h1 class="header1">Mario Pest Control</h1>
+    <div class="display">
+
+    
 
     <div id="goombas">
-        Goombas
-        <img id="goomba1" src="https://giantbomb1.cbsistatic.com/uploads/scale_small/0/6753/200638-goomba3d.jpg" width="300" height="300px">
+        <h3>Goombas</h3>
+        <img id="goomba1" src="https://giantbomb1.cbsistatic.com/uploads/scale_small/0/6753/200638-goomba3d.jpg" >
         5 coins
         <img src="https://i.pinimg.com/originals/6e/6f/84/6e6f84e1f7125e0ca3936d267e75a605.jpg" width="50px" height="50px">
        <input type="number" id="qty1" ng-model="quantity" placeholder="Total Caught"></input>
        <button onclick="myFunction1()">Calculate</button>
        <h3>Total Cost</h3>
-       <p id="total1">Coins</p>></div>
+       <p id="total1">Coins</p></div>
 
     <div class="bomb-ombs">
 
-    Bob-ombs
-    <img id="bomb-omb1" src="https://www.nicepng.com/png/detail/218-2185184_bob-omb-walk-super-mario-bob-ombs.png" width="320px" height="300px">
+    <h3>Bob-ombs</h3>
+    <img id="bomb-omb1" src="https://www.nicepng.com/png/detail/218-2185184_bob-omb-walk-super-mario-bob-ombs.png" >
     7 coins
     <img src="https://i.pinimg.com/originals/6e/6f/84/6e6f84e1f7125e0ca3936d267e75a605.jpg" width="50px" height="50px">
     <input type="number" name="qty" id="qty2" placeholder="Total Caught">
     <button onclick="myFunction2()">Calculate</button>
     <h3>Total Cost</h3>
-    <p id="total2">Coins</p>>
+    <p id="total2">Coins</p>
 
     </div>
 
     <div class="cheepcheeps">
-        Cheep-cheeps
+        <h3>Cheep-cheeps</h3>
         <img id="cheep-cheep1" src="https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2714/375289-cheapycheep.jpg" width="330px" height="300px">
         11 coins
         <img src="https://i.pinimg.com/originals/6e/6f/84/6e6f84e1f7125e0ca3936d267e75a605.jpg" width="50px" height="50px">
         <input type="number" name="qty" id="qty3" placeholder="Total Caught">
         <button onclick="myFunction3()">Calculate</button>
         <h3>Total Cost</h3>
-        <p id="total3">Coins</p>>
+        <p id="total3">Coins</p>
 
     </div>
 
     <div class="total">
 
     </div>
-    
+</div>
+
+
 </body>
 </html>
